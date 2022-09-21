@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-        - python -m pip install Flask
   build:
     commands:
       - echo Build started on `date`
@@ -22,3 +19,4 @@ artifacts:
     - scripts/start_flask.sh
     - scripts/stop_flask1.sh
     - scripts/stop_flask.py
+
