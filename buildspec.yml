@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       python: 3.7
     commands:
-      - pip3 install flask
+      - sudo yum install flask
   build:
     commands:
       - echo Build started on `date`
