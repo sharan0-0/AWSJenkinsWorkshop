@@ -22,4 +22,3 @@ artifacts:
     - scripts/start_flask.sh
     - scripts/stop_flask1.sh
     - scripts/stop_flask.py
-
